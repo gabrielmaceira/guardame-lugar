@@ -1,0 +1,68 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*** COLORS ***/
+@bg-color: #913D88;
+@txt-color: #FFFFFF;
+@icn-color: #FFFFFF;
+
+html {
+  min-height: 100vh;
+}
+
+header {
+  width: 100vw;
+}
+
+.nav-col {
+  max-width: 75vw;
+}
+
+.header-logo {
+  height: 10vh;
+  margin-left: 5vw;
+}
+
+.padding-nav {
+  padding: 0 3em 0 3em;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* BOOTSTRAP OVERRIDES */
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    margin-bottom: 2vh;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(142, 230, 230);
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+/* END BOOTSTRAP OVERRIDES */
