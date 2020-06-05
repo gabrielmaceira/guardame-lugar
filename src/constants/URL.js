@@ -1,4 +1,4 @@
-export const URL_SIGNUP = 'http://localhost:50500/guardamelugar/clientes/signup'
-export const URL_LOGIN = 'http://localhost:50500/guardamelugar/clientes/login'
-export const URL_REGISTER_GARAGE = 'http://localhost:50500/guardamelugar/garages/garageregister'
-export const URL_LOCALIDADES = 'http://localhost:50500/guardamelugar/garages/localidades'
+export const URL_SIGNUP = 'https://guardame-lugar.azurewebsites.net/guardamelugar/clientes/signup'
+export const URL_LOGIN = 'https://guardame-lugar.azurewebsites.net/guardamelugar/clientes/login'
+export const URL_REGISTER_GARAGE = 'https://guardame-lugar.azurewebsites.net/guardamelugar/garages/garageregister'
+export const URL_LOCALIDADES = 'https://guardame-lugar.azurewebsites.net/guardamelugar/garages/localidades'
